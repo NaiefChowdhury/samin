@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Check Screen Size </title>
+<style>
+
+body {
+margin: 0;
+padding: 0;
+}
+
+
+button {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 50px;
+background: blue;
+color: white;
+font-size: 40px;
+}
+
+</style>
+</head>
+<body>
+
+<button onclick="bell()"> CHECK INTERNET </button>
+
+
+
+<script>
+
+
+function bell() {
+var h = screen.height;
+var w = screen.width;
+alert("Screen Width Is " + w + "; Screen Height Is " + h);
+
+}
+
+</script>
+</body>
+</html>
